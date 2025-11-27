@@ -4,7 +4,7 @@ provider "aws" {
 
 resource "aws_key_pair" "devops_key" {
   key_name   = "devops-key"
-  public_key = file(var.public_key_path)
+  public_key = file("${path.module}/devops-key.pub")
 }
 
 resource "aws_security_group" "web_sg" {
