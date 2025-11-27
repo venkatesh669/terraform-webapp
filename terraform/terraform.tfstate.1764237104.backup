@@ -1,0 +1,37 @@
+{
+  "version": 4,
+  "terraform_version": "1.14.0",
+  "serial": 7,
+  "lineage": "2a1703b8-746f-3b50-d445-6e0a6c46a875",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "aws_key_pair",
+      "name": "devops_key",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "arn": "arn:aws:ec2:ap-south-1:950937671793:key-pair/devops-key",
+            "fingerprint": "8d:fd:68:32:b2:5f:84:11:f6:3c:bd:8f:bc:e0:fc:c5",
+            "id": "devops-key",
+            "key_name": "devops-key",
+            "key_name_prefix": "",
+            "key_pair_id": "key-093984d115b162c84",
+            "key_type": "rsa",
+            "public_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC1it1VuJ8EaNXQrTGMBo2ctTQWS73OgTPUN12WZpuyHy0WgL+V2i/Mn6sLgHSaSX9pwrpAv2h75Dww8Uuy0VmhikD8NzcGU1+BhYMcRuLYLXmqOEOgExzJDtWcX9trzKDqqMDAvJN6HY1gFZFljhPLS4Aaxg48/nMrdFYmOWEZy1nVhZsi7Z5rHM6jFU5hBUBoQfW6dBlH/vH+ggWpqRfKHkN5kiP+rnrTJ+tsDbUsCQKA6p3o1EOG1LAlX9hO8/t63E1FQ6P14mRu4a5MjU3I7SXCW5QRYUGy8pOZ0X8W+WY1pCxO+PqUeyO0PUMTuDe67w5Y8BH6trmIvvGfhpu1H1OLP/ME2qvdHrR1cW0wqMUoqOm7jpq5UNsIhgdC7rUPoxxFJL82V7SIGpUi/StmwnIb2L2gWnTPVl/SSlkFAdsoLvNDEKWegB73j0x867HuREYRv8iN657bbmPWMQ+kkGbJ0U0lTq/CGWaL/NZ0/y3/dw7+uPnal6O9qmY10wM= root@ip-172-31-44-127.eu-north-1.compute.internal",
+            "region": "ap-south-1",
+            "tags": {},
+            "tags_all": {}
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}
